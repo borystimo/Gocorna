@@ -135,7 +135,6 @@ body {
 
 .page__healthcare {
   padding-top: 80px;
-  padding-bottom: 50px;
 }
 
 [class*=__container] {
@@ -218,8 +217,18 @@ body {
   display: inline-block;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #cc1723;
+}
+
 .button_blue {
   background-color: #4285F4;
+}
+
+.button_blue:hover,
+.button_blue:focus {
+  background-color: #0c47a5;
 }
 
 /*----------------/GLOBAL---------------*/
@@ -310,6 +319,11 @@ body {
   line-height: normal;
   letter-spacing: 0.0875rem;
   text-transform: uppercase;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  text-decoration: underline;
 }
 
 /*======================header========================*/
@@ -605,7 +619,12 @@ body {
 
 /*======================footer========================*/
 
-.images-footer {
+.footer {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.apps-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

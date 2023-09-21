@@ -12,10 +12,10 @@
    <!-- Google Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Rubik:wght@400;700&display=swap&_v=20230922020623"
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Rubik:wght@400;700&display=swap&_v=20230922023525"
       rel="stylesheet">
 
-   <link rel="stylesheet" href="css/style.min.css?_v=20230922020623">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230922023525">
    <title>GoCorona</title>
 </head>
 
@@ -27,12 +27,12 @@
 
       <header class="header">
    <div class="header__container">
-      <div class="header__logo logo">
+      <a href="index.html" class="header__logo logo">
          <div class="header__icon">
             <img src="img/header/logo.svg" alt="logo">
          </div>
-         <a href="index.html" class="header__brand">Go<span class="header__logo-color">Corona</span></a>
-      </div>
+         <div class="header__brand">Go<span class="header__logo-color">Corona</span></div>
+      </a>
 
 
       <nav class="header__menu menu">
@@ -224,7 +224,7 @@
 
                <div class="healthcare__items">
 
-                  <div class="healthcare__column healthcare__column_1">
+                  <a href="https://github.com/borystimo/Gocorna" class="healthcare__column healthcare__column_1">
                      <div class="healthcare__item item-healthcare">
                         <div class="item-healthcare__icon">
                            <img src="img/healthcare/men.svg" alt="men">
@@ -236,9 +236,9 @@
                            </p>
                         </div>
                      </div>
-                  </div>
+                  </a>
 
-                  <div class="healthcare__column healthcare__column_2">
+                  <a href="https://github.com/borystimo/Gocorna" class="healthcare__column healthcare__column_2">
                      <div class="healthcare__item item-healthcare">
                         <div class="item-healthcare__icon">
                            <img src="img/healthcare/doc.svg" alt="men">
@@ -249,9 +249,9 @@
                               Consult with 10,000+ health workers about your concerns. </p>
                         </div>
                      </div>
-                  </div>
+                  </a>
 
-                  <div class="healthcare__column healthcare__column_3">
+                  <a href="https://github.com/borystimo/Gocorna" class="healthcare__column healthcare__column_3">
                      <div class="healthcare__item item-healthcare">
                         <div class="item-healthcare__icon">
                            <img src="img/healthcare/heart.svg" alt="men">
@@ -263,7 +263,7 @@
                            </p>
                         </div>
                      </div>
-                  </div>
+                  </a>
 
                </div>
 
@@ -283,13 +283,19 @@
    <footer class="footer">
    <div class="footer__container">
 
-      <div class="footer__images images-footer">
-         <div class="images-footer__google">
-            <picture><source srcset="img/footer/google.webp" type="image/webp"><img src="img/footer/google.png" alt="google"></picture>
-         </div>
-         <div class="images-footer__app-store">
-            <picture><source srcset="img/footer/appstore.webp" type="image/webp"><img src="img/footer/appstore.png" alt="appstore"></picture>
-         </div>
+      <div class="footer__apps apps-footer">
+
+         <a href="https://play.google.com/store/apps?hl=ru&gl=US" target="_blank" class="apps-footer__link">
+            <div class="apps-footer__google">
+               <picture><source srcset="img/footer/google.webp" type="image/webp"><img src="img/footer/google.png" alt="google"></picture>
+            </div>
+         </a>
+
+         <a href="https://www.apple.com/ua/app-store/" target="_blank" class="apps-footer__link">
+            <div class="apps-footer__app-store">
+               <picture><source srcset="img/footer/appstore.webp" type="image/webp"><img src="img/footer/appstore.png" alt="appstore"></picture>
+            </div>
+         </a>
       </div>
    </div>
 </footer>
@@ -300,7 +306,7 @@
 
 
 
-   <script src="js/app.min.js?_v=20230922020623"></script>
+   <script src="js/app.min.js?_v=20230922023525"></script>
 </body>
 
 </html>
